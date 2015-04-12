@@ -3,11 +3,32 @@
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/Nexus (SL).tmTheme",
+	"color_scheme": "Packages/User/Nexus (SL) (Flake8Lint).tmTheme",
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
+	"flake8lint":
+	{
+		"builtins":
+		[
+		],
+		"complexity": -1,
+		"ignore":
+		[
+		],
+		"ignore_files":
+		[
+		],
+		"naming": true,
+		"pep8": true,
+		"pep8_max_line_length": 119,
+		"pyflakes": true,
+		"python_interpreter": "auto",
+		"select":
+		[
+		]
+	},
 	"font_size": 11,
 	"ignored_packages":
 	[
@@ -16,7 +37,8 @@
 	"match_brackets_angle": true,
 	"rulers":
 	[
-		80
+		80,
+		120
 	],
 	"show_encoding": true,
 	"theme": "Nexus.sublime-theme",

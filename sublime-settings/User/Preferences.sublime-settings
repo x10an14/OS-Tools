@@ -1,4 +1,10 @@
 {
+	"added_words":
+	[
+		"Multithreaded",
+		"multithreaded",
+		"vertices"
+	],
 	"auto_complete_commit_on_tab": true,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
@@ -29,7 +35,7 @@
 		[
 		]
 	},
-	"font_size": 11,
+	"font_size": 9,
 	"ignored_packages":
 	[
 		"Vintage"

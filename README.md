@@ -1,2 +1,5 @@
-# sublime-settings
-User folder in sublime settings with settings set-up for new installs of ST3.
+# OS-Tools
+
+Different tools/settings for applications/OS's I use.
+(Makes life easier when reformatting)!
+

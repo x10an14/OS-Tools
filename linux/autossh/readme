@@ -1,0 +1,11 @@
+Inspired by the following links:
+
+https://www.async.fi/2013/07/autossh-with-ubuntu-upstart/
+https://blog.sleeplessbeastie.eu/2014/12/23/how-to-create-persistent-reverse-ssh-tunnel/
+https://raymii.org/s/tutorials/Autossh_persistent_tunnels.html
+http://unix.stackexchange.com/questions/80390/start-autossh-reverse-tunnel-automatically-when-network-comes-up
+blog.kylemanna.com/linux/2014/02/20/ssh-reverse-tunnel-on-linux-with-systemd/
+
+Ended up finding out that the nopwd rsa key I made for link #2 did the trick in the sshtunnel.session file in this folder.
+
+NB(!): The install script doesn't work, but command is there for use.

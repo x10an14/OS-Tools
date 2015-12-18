@@ -1,0 +1,16 @@
+[Unit]
+Description=AutoSSH-maintained reverse ssh tunnel to idi-machine - Dec. 2015
+ConditionPathExists=|/usr/bin
+After=network-online.target
+
+[Service]
+User=x10an14
+Group=x10an14
+ExecStart=/usr/bin/autossh -M 0 -NT -o ServerAliveInterval=60 -o ServerAliveCountMax=3 -o TCPKeepAlive=yes -o ExitOnForwardFailure=yes -o StrictHostKeyChecking=no -i /home/x10an14/.ssh/nopwd -R 64444:localhost:12478 -F /home/x10an14/.ssh/config idi-machine
+
+RestartSec=3
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+	

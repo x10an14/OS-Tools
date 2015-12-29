@@ -3,9 +3,26 @@
 	[
 		"Multithreaded",
 		"multithreaded",
-		"vertices"
+		"vertices",
+		"effectivize",
+		"Nvidia",
+		"prophesized",
+		"Facebook",
+		"Netflix",
+		"Spotify"
 	],
 	"auto_complete_commit_on_tab": true,
+	"auto_complete_triggers":
+	[
+		{
+			"characters":
+			[
+				".",
+				"shift+space"
+			],
+			"selector": "source.python"
+		}
+	],
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
@@ -28,7 +45,7 @@
 		],
 		"naming": true,
 		"pep8": true,
-		"pep8_max_line_length": 119,
+		"pep8_max_line_length": 120,
 		"pyflakes": true,
 		"python_interpreter": "auto",
 		"select":
@@ -39,6 +56,10 @@
 	"ignored_packages":
 	[
 		"Vintage"
+	],
+	"ignored_words":
+	[
+		"Wirth's"
 	],
 	"match_brackets_angle": true,
 	"rulers":

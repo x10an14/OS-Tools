@@ -1,11 +1,15 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
+		"All Autocomplete",
+		"Jedi - Python autocompletion",
 		"LaTeXTools",
 		"Package Control",
+		"PowerShell",
 		"Python Flake8 Lint",
 		"SublimeLinter",
 		"SublimeLinter-annotations",

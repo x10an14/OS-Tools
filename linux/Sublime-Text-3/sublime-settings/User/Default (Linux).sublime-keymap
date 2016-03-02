@@ -1,0 +1,8 @@
+[
+	{ "keys": ["ctrl+7"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["ctrl+shift+7"], "command": "toggle_comment", "args": { "block": true } },
+	{ "keys": ["F1"], "command": "sublime_jedi_docstring", "args": { "block": true } },
+	{ "keys": ["shift+F1"], "command": "sublime_jedi_signature", "args": { "block": false } },
+	// Refresh folder list with F5
+	{ "keys": ["f5"], "command": "refresh_folder_list" },
+]

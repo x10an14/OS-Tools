@@ -9,7 +9,28 @@
 		"prophesized",
 		"Facebook",
 		"Netflix",
-		"Spotify"
+		"Spotify",
+		"inline",
+		"tex",
+		"online",
+		"backends",
+		"Sindre",
+		"Magnussen",
+		"Natvig",
+		"admin",
+		"backend",
+		"nano",
+		"smartphones",
+		"Samsung",
+		"Exynos",
+		"Odroid",
+		"x86",
+		"x64",
+		"smartphone",
+		"Exascale",
+		"Gothenburg",
+		"codebase",
+		"frontend"
 	],
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_triggers":
@@ -18,7 +39,7 @@
 			"characters":
 			[
 				".",
-				"shift+space"
+				"leftcontrol+space"
 			],
 			"selector": "source.python"
 		}
@@ -27,10 +48,15 @@
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
 	"color_scheme": "Packages/User/Nexus (SL) (Flake8Lint).tmTheme",
+	"default_line_ending": "unix",
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
+	"file_exclude_patterns":
+	[
+		"*.pyc"
+	],
 	"flake8lint":
 	{
 		"builtins":
@@ -43,7 +69,7 @@
 		"ignore_files":
 		[
 		],
-		"naming": true,
+		"naming": false,
 		"pep8": true,
 		"pep8_max_line_length": 120,
 		"pyflakes": true,
@@ -52,6 +78,9 @@
 		[
 		]
 	},
+	"folder_exclude_patterns":
+	[
+	],
 	"font_size": 9,
 	"ignored_packages":
 	[
@@ -59,7 +88,9 @@
 	],
 	"ignored_words":
 	[
-		"Wirth's"
+		"Lasse",
+		"Wirth's",
+		"masterthesis"
 	],
 	"match_brackets_angle": true,
 	"rulers":

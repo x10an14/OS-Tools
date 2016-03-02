@@ -7,14 +7,17 @@
 	[
 		"All Autocomplete",
 		"Jedi - Python autocompletion",
+		"JSON Reindent",
 		"LaTeXTools",
 		"Package Control",
 		"PowerShell",
+		"Pretty JSON",
 		"Python Flake8 Lint",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
 		"SublimeLinter-chktex",
 		"SublimeLinter-contrib-clang",
+		"Terminal",
 		"Theme - Nexus"
 	]
 }

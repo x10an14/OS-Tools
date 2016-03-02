@@ -1,6 +1,5 @@
 #!/bin/bash
 
 sudo systemctl daemon-reload
-sudo systemctl restart sshtunnel.service
-sudo systemctl status sshtunnel.service
-
+sudo service sshtunnel restart
+sudo service sshtunnel status

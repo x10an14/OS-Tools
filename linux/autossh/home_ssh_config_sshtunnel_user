@@ -1,0 +1,11 @@
+host idi-machine
+Port 5124
+Protocol 2
+User sshtunnel
+ServerAliveCountMax 3
+ServerAliveInterval 60
+ExitOnForwardFailure yes
+CheckHostIP yes
+TCPKeepAlive yes
+Hostname stud2185.idi.ntnu.no
+RemoteForward 64444 localhost:12478

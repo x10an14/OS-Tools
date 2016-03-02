@@ -1,0 +1,5 @@
+host home-machine
+hostname localhost
+CheckHostIp no
+User x10an14
+Port 64444

@@ -1,0 +1,3 @@
+Host home-machine
+ProxyCommand ssh idi-machine nc localhost 64444
+User x10an14

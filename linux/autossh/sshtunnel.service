@@ -1,5 +1,5 @@
 [Unit]
-Description=AutoSSH-maintained reverse ssh tunnel to idi-machine - Feb. 2016
+Description=AutoSSH-maintained reverse ssh tunnel to idi-vm-machine - May 2016
 ConditionPathExists=|/usr/bin/autossh/
 ConditionPathExists=|/usr/bin/ssh
 ConditionPathExists=|/bin/bash
@@ -7,7 +7,7 @@ After=network-online.target
 
 [Service]
 User=sshtunnel
-ExecStart=/bin/bash -c 'autossh -M 0 -NT idi-machine'
+ExecStart=/bin/bash -c 'autossh -M 0 -NT idi-vm-machine'
 
 RestartSec=3
 Restart=always

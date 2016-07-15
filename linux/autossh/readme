@@ -6,7 +6,7 @@ https://raymii.org/s/tutorials/Autossh_persistent_tunnels.html
 http://unix.stackexchange.com/questions/80390/start-autossh-reverse-tunnel-automatically-when-network-comes-up
 blog.kylemanna.com/linux/2014/02/20/ssh-reverse-tunnel-on-linux-with-systemd/
 
-Old comment: Ended up finding out that the nopwd rsa key I made for link #2 did the trick in the sshtunnel.session file in this folder.
+Old comment: Ended up finding out that the nopwd rsa key I made for link #2 did the trick in the sshtunnel.service file in this folder.
 
 Comment 02.03.2016:
 Shit now works, the sshtunnel.service/systemd script, the update_sshtunnel_systemd_service.sh, and home_ssh_config_* files!

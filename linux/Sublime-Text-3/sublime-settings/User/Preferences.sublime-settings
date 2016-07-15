@@ -30,7 +30,10 @@
 		"Exascale",
 		"Gothenburg",
 		"codebase",
-		"frontend"
+		"frontend",
+		"profilings",
+		"Fidjestøl",
+		"strived"
 	],
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_triggers":
@@ -81,7 +84,7 @@
 	"folder_exclude_patterns":
 	[
 	],
-	"font_size": 9,
+	"font_size": 8,
 	"ignored_packages":
 	[
 		"Vintage"

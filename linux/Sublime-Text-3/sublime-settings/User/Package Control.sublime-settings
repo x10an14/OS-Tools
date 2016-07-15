@@ -12,13 +12,14 @@
 		"Package Control",
 		"PowerShell",
 		"Pretty JSON",
-		"PyDOC",
+		"Python 3",
 		"Python Flake8 Lint",
+		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
 		"SublimeLinter-chktex",
 		"SublimeLinter-contrib-clang",
-		"Terminal",
-		"Theme - Nexus"
+		"Theme - Nexus",
+		"WordCount"
 	]
 }

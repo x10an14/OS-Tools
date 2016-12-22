@@ -227,7 +227,7 @@ exec --no-startup-id blueberry-tray
 # For audio hotkeys:
 bindsym XF86AudioRaiseVolume exec "amixer -q sset Master,0 5%+ unmute"
 bindsym XF86AudioLowerVolume exec "amixer -q sset Master,0 5%- unmute"
-bindsym XF86AudioMute exec "amixer -q sset Master toggle"
+bindsym XF86AudioMute exec "amixer -D pulse set Master Playback Switch toggle"
 
 # Screen backlight hotkeys:
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness

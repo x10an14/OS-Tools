@@ -203,8 +203,9 @@ assign [class="(?i)Enpass"] $tag8
 exec --no-startup-id i3-msg 'workspace 8:Enpass; exec --no-startup-id enpass'
 
 # Chrome:
-assign [class="(?i)Chrome"] $tag2
-exec --no-startup-id i3-msg 'workspace 2:web; exec --no-startup-id google-chrome'
+assign [class="(?i)firefox"] $tag2
+exec --no-startup-id i3-msg 'workspace 2:web; exec --no-startup-id firefox'
+for_window [class="(?i)firefox"] move to workspace $tag2 layout tabbed
 
 # Chats:
 assign [class="(?i)(hipchat|discord)"] $tag7

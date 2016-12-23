@@ -9,7 +9,10 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod1
+# Having mod key == alt key
+#set $mod Mod1i
+# Having mod key == super key
+set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -97,10 +100,10 @@ set $tag0 "0:Misc"
 set $tag1 "1:Home"
 set $tag2 "2:Web"
 set $tag3 "3:tmux"
-set $tag4 "4:Subl"
+set $tag4 "4:Sublime"
 set $tag6 "6:Music"
 set $tag7 "7:Chat"
-set $tag8 "8:PWs"
+set $tag8 "8:Enpass"
 set $tag9 "9:Fun"
 
 # switch to workspace

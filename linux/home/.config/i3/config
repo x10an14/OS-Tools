@@ -214,7 +214,7 @@ exec --no-startup-id i3-msg 'workspace 1; exec i3-sensible-terminal'
 exec --no-startup-id nm-applet
 
 # For sound applet in top-right corner:
-exec --no-startup-id volumeicon
+exec --no-startup-id pasystray
 
 # Bluetooth tray-icon:
 exec --no-startup-id blueberry-tray

@@ -1,0 +1,9 @@
+slack
+skype
+postman
+dropbox
+discord
+signal
+vlc
+hexchat
+gitter

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+flatpak run io.github.Hexchat/x86_64/stable & disown
+

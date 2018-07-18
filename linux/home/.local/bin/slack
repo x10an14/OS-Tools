@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+flatpak run com.slack.Slack/x86_64/stable & disown
+

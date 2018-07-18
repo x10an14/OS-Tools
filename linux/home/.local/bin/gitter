@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+flatpak run im.gitter.Gitter/x86_64/stable & disown
+

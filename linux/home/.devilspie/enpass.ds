@@ -1,0 +1,6 @@
+( if
+( begin
+( is (window_class) "Spotify" )
+)
+(begin (close) )
+)

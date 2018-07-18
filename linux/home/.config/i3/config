@@ -9,7 +9,7 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod1
+set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -175,7 +175,7 @@ bar {
 		inactive_workspace	#007fff	#666666		#ffffff
 	}
 	# i3bar position
-	position top
+	position bottom
 
 	status_command py3status
         tray_output primary
@@ -225,11 +225,11 @@ exec --no-startup-id volumeicon
 exec --no-startup-id blueberry-tray
 
 # For audio hotkeys:
-bindsym XF86AudioRaiseVolume exec "amixer -q sset Master,0 5%+ unmute"
-bindsym XF86AudioLowerVolume exec "amixer -q sset Master,0 5%- unmute"
-bindsym XF86AudioMute exec "amixer -q sset Master toggle"
+# bindsym XF86AudioRaiseVolume exec "amixer -q sset Master,0 5%+ unmute"
+# bindsym XF86AudioLowerVolume exec "amixer -q sset Master,0 5%- unmute"
+# bindsym XF86AudioMute exec "amixer -q sset Master toggle"
 
 # Screen backlight hotkeys:
-bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness
-bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightness
+# bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness
+# bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightness
 

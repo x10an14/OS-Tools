@@ -201,9 +201,9 @@ for_window [class="(?i)Firefox"] move to workspace $tag2 layout tabbed
 # Chats:
 assign [class="(?i)(hipchat|discord|slack|gitter|hexchat|skype|signal)"] $tag8
 # exec --no-startup-id i3-msg 'workspace 8: Chats; exec --no-startup-id hipchat4'
-exec --no-startup-id i3-msg 'workspace 8: Chats; exec --no-startup-id slack'
-exec --no-startup-id i3-msg 'workspace 8: Chats; exec --no-startup-id gitter'
 exec --no-startup-id i3-msg 'workspace 8: Chats; exec --no-startup-id discord'
+exec --no-startup-id i3-msg 'workspace 8: Chats; exec --no-startup-id gitter'
+exec --no-startup-id i3-msg 'workspace 8: Chats; exec --no-startup-id slack'
 # exec --no-startup-id i3-msg 'workspace 8: Chats; exec --no-startup-id hexchat'
 # exec --no-startup-id i3-msg 'workspace 8: Chats; exec --no-startup-id skype'
 for_window [class="(?i)(hipchat|discord|slack|gitter|hexchat|skype|signal)"] move to workspace $tag8 layout tabbed
@@ -229,3 +229,5 @@ exec --no-startup-id blueberry-tray
 # bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness
 # bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightness
 
+# Spread workspaces across monitors (if they're connected):
+exec --no-startup-id i3-spread-workspaces

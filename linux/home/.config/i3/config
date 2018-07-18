@@ -187,11 +187,11 @@ assign [class="(?i)sublime"] $tag4
 exec --no-startup-id i3-msg 'workspace 4: Subl; exec --no-startup-id subl'
 
 # Background programs:
-assign [class="(?i)(Enpass|Spotify|vlc|pavucontrol)"] $tag9
+assign [class="(?i)(Enpass|Spotify|vlc|pavucontrol)"] $tag0
 exec --no-startup-id i3-msg 'workspace 10; exec --no-startup-id enpass'
 exec --no-startup-id i3-msg 'workspace 10; exec --no-startup-id spotify'
 exec --no-startup-id i3-msg 'workspace 10; exec --no-startup-id pavucontrol'
-for_window [class="(?i)(Enpass|Spotify|vlc|pavucontrol)"] move to workspace $tag9 layout tabbed
+for_window [class="(?i)(Enpass|Spotify|vlc|pavucontrol)"] move to workspace $tag0 layout tabbed
 
 # Firefox:
 assign [class="(?i)Firefox"] $tag2
@@ -203,8 +203,9 @@ assign [class="(?i)(hipchat|discord|slack|gitter|hexchat|skype|signal)"] $tag8
 # exec --no-startup-id i3-msg 'workspace 8: Chats; exec --no-startup-id hipchat4'
 exec --no-startup-id i3-msg 'workspace 8: Chats; exec --no-startup-id slack'
 exec --no-startup-id i3-msg 'workspace 8: Chats; exec --no-startup-id gitter'
-exec --no-startup-id i3-msg 'workspace 8: Chats; exec --no-startup-id hexchat'
 exec --no-startup-id i3-msg 'workspace 8: Chats; exec --no-startup-id discord'
+# exec --no-startup-id i3-msg 'workspace 8: Chats; exec --no-startup-id hexchat'
+# exec --no-startup-id i3-msg 'workspace 8: Chats; exec --no-startup-id skype'
 for_window [class="(?i)(hipchat|discord|slack|gitter|hexchat|skype|signal)"] move to workspace $tag8 layout tabbed
 
 # Terminal in "Home" workspace:

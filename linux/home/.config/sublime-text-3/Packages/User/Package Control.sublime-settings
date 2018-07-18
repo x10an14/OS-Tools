@@ -6,7 +6,6 @@
 	"installed_packages":
 	[
 		"Anaconda",
-		"anaconda_rust",
 		"Coconut",
 		"Dockerfile Syntax Highlighting",
 		"JSON Reindent",

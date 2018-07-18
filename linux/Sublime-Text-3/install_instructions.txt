@@ -1,9 +1,0 @@
-# Install instructions for Sublime Text 3 settings:
-
-1. First install sublime text 3
-2. Install package manager
-3. Rename/remove User folder in config/settings
-4. Make symlink to user folder in this repo instead at that location.
-5. Restart Sublime Text
-6. Voilá
-

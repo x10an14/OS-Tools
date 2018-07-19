@@ -1,0 +1,3 @@
+[submodule "linux/tools/stb_vpn"]
+	path = linux/tools/stb_vpn
+	url = ssh://git@git.stb.intra:7999/~jxq/stb_linux_vpn.git

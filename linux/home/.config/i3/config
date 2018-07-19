@@ -220,6 +220,9 @@ exec --no-startup-id pasystray
 # Bluetooth tray-icon:
 exec --no-startup-id blueberry-tray
 
+# Lock
+bindsym Control+Mod1+l exec i3lock --color=1111FF --ignore-empty-password --show-failed-attempts
+
 # For audio hotkeys:
 # bindsym XF86AudioRaiseVolume exec "amixer -q sset Master,0 5%+ unmute"
 # bindsym XF86AudioLowerVolume exec "amixer -q sset Master,0 5%- unmute"

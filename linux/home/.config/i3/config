@@ -178,7 +178,7 @@ bar {
 	# i3bar position
 	position bottom
 
-	status_command py3status
+	status_command py3status --config ~/.i3status.conf
         tray_output primary
 }
 

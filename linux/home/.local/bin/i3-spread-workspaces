@@ -1,14 +1,21 @@
 #!/usr/bin/env bash
 
+# Source LOGFILE variable
+source $HOME/.config/i3/i3-common.sh
+
 if [ "$(xrandr | grep -E '^DVI-I-' | grep -c ' connected')" == "2" ]; then
-    echo "Screens detected:"
-    ~/.screenlayout/dbd_docking_station.sh
-    sleep 3;
+    echo "Screens detected:" 2>&1 | tee -a $LOGFILE
+    ~/.screenlayout/dbd_docking_station.sh 2>&1 | tee -a $LOGFILE
+    sleep 5;
     if pgrep i3; then
-        i3-msg workspace "10" && i3-move-current-workspace right
-        i3-msg workspace "3: SSH" && i3-move-current-workspace left
-        i3-msg workspace "8: Chats" && i3-move-current-workspace right
-        i3-msg workspace 1
+	# Select workspace, then move it to desired monitor
+        i3-msg workspace "10" && i3-move-current-workspace DVI-I-1-1 2>&1 | tee -a $LOGFILE
+        i3-msg workspace "10" && i3-move-current-workspace DVI-I-1-1 2>&1 | tee -a $LOGFILE
+        i3-msg workspace "3: SSH" && i3-move-current-workspace DVI-I-1-1 2>&1 | tee -a $LOGFILE
+        i3-msg workspace "8: Chats" && i3-move-current-workspace DVI-I-2-2 2>&1 | tee -a $LOGFILE
+        i3-msg workspace "4: Subl" && i3-move-current-workspace primary 2>&1 | tee -a $LOGFILE
+        i3-msg workspace "2: Web" && i3-move-current-workspace primary 2>&1 | tee -a $LOGFILE
+        i3-msg workspace "1" && i3-move-current-workspace primary 2>&1 | tee -a $LOGFILE
     fi
 fi
 
